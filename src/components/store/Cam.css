@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 30% 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-image: radial-gradient(#f6f1d3, #648880, #293f50);
+}
+
+.addBtn {
+  background-color: blue;
+  border: blue;
+  color: white;
+}
+
+.onsale {
+  color: yellow;
+  font-size: 30px;
+}
