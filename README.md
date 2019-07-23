@@ -1,6 +1,8 @@
-# Q3 Camera Shop Assessment
+# [Demo on Heroku](https://camera-store-mw.herokuapp.com/)
 
-## Getting Started
+## Q3 Camera Shop Assessment
+
+### Getting Started
 
 ```
 # clone this repo
@@ -16,9 +18,9 @@ git push
 ```
 
 
-## Part 1
+### Part 1
 
-### Preparing to build
+#### Preparing to build
 
 Someone from the design team sent over some mockups of our camera shops home page.
 Your first step should be to diagram out the component hierarchy of the app on a whiteboard or piece of paper.
@@ -39,9 +41,9 @@ Have your components render out placeholder text of the name of the component if
 
 <hr />
 
-## Part 2
+### Part 2
 
-### Requirements
+#### Requirements
 
 ![Camera Shop Example](base-gif.gif)
 
@@ -52,11 +54,11 @@ The camera shop page will require the following functionality:
 1. The words "On SALE!" (or some form) are used when `onSale` is true
 1. The ability to search to filter the results.
 
-## Requirements - Part 2
+### Requirements - Part 2
 
 The goal of part 2 is to add cart functionality.
 
-### User Stories
+#### User Stories
 
 1. When the user clicks "Add to Cart", the item is added to the cart.
 1. The user can remove an item from the cart by clicking on a button.
@@ -65,9 +67,9 @@ The goal of part 2 is to add cart functionality.
 
 <hr />
 
-## Part 3
+### Part 3
 
-### Style your app
+#### Style your app
 
 **Base Goal**: Use CSS to style the app.
 
@@ -75,7 +77,7 @@ The goal of part 2 is to add cart functionality.
 
 <hr />
 
-## Stretch Goals
+### Stretch Goals
 
 - The ability to sort by name or rating (default is name)
 - Use the [ReactStars](https://www.npmjs.com/package/react-stars) library to replace the rating number with a set of stars. Make sure that the user can't edit the rating.
@@ -83,20 +85,20 @@ The goal of part 2 is to add cart functionality.
 
 The `Cart` (or `Checkout`) component is different from your live cart preview component, but instead the page where users will fill in their info when submitting an order.
 
-### Bonus 1
+#### Bonus 1
 
 You now have a new checkout page, and that very first component looks quite similar to our live cart preview component on the home page.
 The only difference is that it doesn't display the list of items and there is no button.
 
 Find a way to reuse your live cart preview component on the checkout page but so that the list and button don't get rendered.
 
-### Bonus 2
+#### Bonus 2
 
 Add a `<Miss />` component that renders a NotFound component for when a user visitings a path that does not exist in your app.
 
 <hr />
 
-## Resources
+### Resources
 
 - [Reactstrap](https://reactstrap.github.io/)
 - [React](https://facebook.github.io/react/)
