@@ -1,4 +1,4 @@
-# [Demo on Heroku](https://camera-store-mw.herokuapp.com/)
+
 
 ## Q3 Camera Shop Assessment
 
